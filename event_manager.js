@@ -13,29 +13,35 @@ async function fetchAllEvents() {
     }
 }
 
-async function getGroupedEvents(statusFilter = 'Todos') {
+async function getGroupedEvents(statusFilter = 'Todos', categoryFilter = 'Todas') {
     const allEvents = await fetchAllEvents();
-    let relevantEvents = [];
+    let relevantEvents = allEvents;
 
     if (statusFilter === 'En vivo') {
-        relevantEvents = allEvents.filter(event =>
+        relevantEvents = relevantEvents.filter(event =>
             event.status && event.status.toLowerCase() === 'en vivo'
         );
     } else if (statusFilter === 'Pronto') {
-        relevantEvents = allEvents.filter(event =>
+        relevantEvents = relevantEvents.filter(event =>
             event.status && event.status.toLowerCase() === 'pronto'
         );
     } else if (statusFilter === 'Finalizados') {
-        relevantEvents = allEvents.filter(event =>
+        relevantEvents = relevantEvents.filter(event =>
             event.status && event.status.toLowerCase() === 'finalizado'
         );
     } else {
-        relevantEvents = allEvents.filter(event =>
+        relevantEvents = relevantEvents.filter(event =>
             event.status && (
                 event.status.toLowerCase() === 'en vivo' ||
                 event.status.toLowerCase() === 'pronto' ||
                 event.status.toLowerCase() === 'finalizado'
             )
+        );
+    }
+
+    if (categoryFilter !== 'Todas') {
+        relevantEvents = relevantEvents.filter(event =>
+            event.category && event.category.toLowerCase() === categoryFilter.toLowerCase()
         );
     }
 
@@ -124,5 +130,6 @@ async function getGroupedEvents(statusFilter = 'Todos') {
 }
 
 module.exports = {
-    getGroupedEvents
+    getGroupedEvents,
+    fetchAllEvents
 };
