@@ -142,7 +142,8 @@ Promise.all([
         id: 'com.stremio.sports.live.addon',
         version: '1.0.0',
         name: 'Sports Live',
-        description: 'Eventos deportivos en vivo y programados.', 
+        description: 'Live sporting events',
+        logo: 'https://i.imgur.com/eo6sbBO.png',
 
         types: ['tv'],
         resources: ['catalog', 'meta', 'stream'],
