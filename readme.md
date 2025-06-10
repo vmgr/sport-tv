@@ -18,7 +18,7 @@ This Stremio addon allows you to watch live, upcoming, and finished sports event
     
     ```
     git clone https://github.com/WebStaticCS/Addon-Sport-Live-Stremio
-    cd Sports-Live-Stremio   
+    cd Addon-Sport-Live-Stremio
     ```   
 2.  **Install dependencies:**
     
