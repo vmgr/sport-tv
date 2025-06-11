@@ -31,6 +31,7 @@ module.exports = {
   "Copa Chile" : "https://i.ibb.co/mFqqmvdh/unnamed.png",
   "Copa de la Reina" : "https://i.ibb.co/Pszk1N1Q/03-copa-de-la-reina-imagenes-brandemia-web.jpg",
   "Ascenso MX" : "https://i.ibb.co/wNvcBBqK/07034fb3-a4cf-4d87-9500-0509247490c4.png",
-  "NHL" : "https://i.ibb.co/tkrs0G3/wallpaperflare-com-wallpaper.jpg",
+  "NHL" : "https://i.ibb.co/tkrs0G3/wallpaperflare-com-wallpaper.jpg",  
+  "Campeonato Sub 21 de la UEFA" : "https://i.ibb.co/0RH1q88p/U21-EURO-logo.jpg",
   "default_poster": "https://placehold.co/500x700/EEE/31343C?text=EVENTO" 
 };
