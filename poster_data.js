@@ -33,5 +33,6 @@ module.exports = {
   "Ascenso MX" : "https://i.ibb.co/wNvcBBqK/07034fb3-a4cf-4d87-9500-0509247490c4.png",
   "NHL" : "https://i.ibb.co/tkrs0G3/wallpaperflare-com-wallpaper.jpg",  
   "Campeonato Sub 21 de la UEFA" : "https://i.ibb.co/0RH1q88p/U21-EURO-logo.jpg",
+  "Liga Colombiana" : "https://i.ibb.co/LztZ25dS/552296eb843e7b9d79560acabf7a3e9942a281b7-jpg.webp",
   "default_poster": "https://placehold.co/500x700/EEE/31343C?text=EVENTO" 
 };
