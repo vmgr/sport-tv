@@ -17,6 +17,7 @@ module.exports = {
   "Superliga Argentina": "https://i.ibb.co/1t76Q6hh/c04DGX9.jpg",
   "primera b nacional": "https://i.ibb.co/xtf0NwVg/KNuueDl.jpg",
   "copa colombia": "https://i.ibb.co/xKqd3fhc/logo-copa-home-1-0.webp",
+  "Copa BetPlay DIMAYOR" : "https://i.ibb.co/xKqd3fhc/logo-copa-home-1-0.webp",
   "concacaf sub-20 femenino": "https://i.ibb.co/Txz7XyTZ/Sub20-FEM.jpg",
   "concacaf sub": "https://i.ibb.co/Txz7XyTZ/Sub20-FEM.jpg",
   "Campeonato Femenino Sub-20 de la Concacaf": "https://i.ibb.co/Txz7XyTZ/Sub20-FEM.jpg",
