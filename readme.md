@@ -8,7 +8,11 @@ Having trouble installing this addon? I've created a **step-by-step video tutori
 
 
 
-https://github.com/user-attachments/assets/6570f47f-1412-434c-9580-3209644e7d3e
+
+
+
+https://github.com/user-attachments/assets/4013acab-c5c4-4bba-9403-7419817a5da2
+
 
 
 
