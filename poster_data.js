@@ -34,5 +34,8 @@ module.exports = {
   "NHL" : "https://i.ibb.co/tkrs0G3/wallpaperflare-com-wallpaper.jpg",  
   "Campeonato Sub 21 de la UEFA" : "https://i.ibb.co/0RH1q88p/U21-EURO-logo.jpg",
   "Liga Colombiana" : "https://i.ibb.co/LztZ25dS/552296eb843e7b9d79560acabf7a3e9942a281b7-jpg.webp",
+  "WWE" : "https://i.ibb.co/xqM1Cpbg/ZGd-Buo6ir-IBcnlj-5-Xdx-V14-EA546-YVh714ldzvb-Bmps.webp",
+  "Premier Padel" : "https://i.ibb.co/LzJq6dXr/Tidy-Agency-Premier-Padel.jpg",
+  "2025 U.S" : "https://i.ibb.co/sv6gHPv1/f-logo-NEW-20180319.jpg",
   "default_poster": "https://placehold.co/500x700/EEE/31343C?text=EVENTO" 
 };
